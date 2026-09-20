@@ -1,0 +1,15 @@
+{
+  "name": "fast-interpreter-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Low-latency real-time interpretation PWA using OpenAI Realtime Translation over WebRTC",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "check": "node --check server.mjs && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
